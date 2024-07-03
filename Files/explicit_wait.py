@@ -12,5 +12,6 @@ a = d.find_element(x, "//a[@id='show-more-details-link']")
 
 wait = WebDriverWait(d, 40)
 wait.until(expected_conditions.element_to_be_clickable((x, "//a[@id='show-more-details-link']"))).click()
-d.save_screenshot("D:\\CREDENCE CLASS\\AUTOMATION\\automation_concept\\screenshots\\untill_exspected_condition001.png")
+
+d.save_screenshot("D:\\CREDENCE CLASS\\AUTOMATION\\automation_concept\\screenshots\\untill_exspected_condition008.png")
 

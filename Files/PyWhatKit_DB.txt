@@ -1,0 +1,15 @@
+Date: 13/5/2024
+Time: 15:55
+Phone Number: +91 9921863266
+Message: Hi i am python Automated whatsapps by using pywhatkitthis feature can be access by using 'pip install pywhatkit'
+--------------------
+Date: 13/5/2024
+Time: 16:0
+Phone Number: +91 9921863266
+Message: Hi i am python Automated whatsapps by using pywhatkitthis feature can be access by using 'pip install pywhatkit'
+--------------------
+Date: 13/5/2024
+Time: 16:2
+Phone Number: +91 9921863266
+Message: Hi i am python Automated whatsapps by using pywhatkitthis feature can be access by using 'pip install pywhatkit'
+--------------------
