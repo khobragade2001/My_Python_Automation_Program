@@ -10,6 +10,7 @@ x = By.XPATH
 d.get("https://fast.com/")
 a = d.find_element(x, "//a[@id='show-more-details-link']")
 
+## wait init
 wait = WebDriverWait(d, 40)
 wait.until(expected_conditions.element_to_be_clickable((x, "//a[@id='show-more-details-link']"))).click()
 
