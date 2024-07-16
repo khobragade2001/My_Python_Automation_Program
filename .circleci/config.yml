@@ -1,13 +1,6 @@
 version: 2.1
 jobs:
-  build:
-    docker:
-      - image: cimg/python:3.2
-    steps:
-      - checkout
-      - run: python Implicit_wait.py
-
-  test:
+   test:
     docker:
       - image: cimg/python:3.2
     steps:
@@ -17,5 +10,4 @@ jobs:
 workflows:
   build_now:
     jobs:
-      - build
       - test
