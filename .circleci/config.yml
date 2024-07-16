@@ -5,14 +5,14 @@ jobs:
       - image: cimg/python:3.2
     steps:
       - checkout
-      - run: pyhton Implicit_wait.py
+      - run: python Implicit_wait.py
 
   test:
     docker:
       - image: cimg/python:3.2
     steps:
       - checkout
-      - run: pyhton Implicit_wait.py
+      - run: python Implicit_wait.py
 
 workflows:
   build_now:
