@@ -1,6 +1,6 @@
 ## create file by using x parameter
 a = open("ashish.txt","x")
-a.write("this file is created by using X parameters \nthank you")
+a.write("this file is created by using X parameters \n thank you")
 
 ## read file by using r parameteres
 f = open("demo.txt","r")
@@ -8,7 +8,7 @@ a = f.read()
 
 ## append file by using a paramateres
 s = open("demo.txt","a")
-print(s.write("\nwe can write using write method"))
+print(s.write("\n n `   poakwopwe can write using write method"))
 
 
 ### try block using file handle
