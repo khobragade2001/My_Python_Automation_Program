@@ -29,5 +29,5 @@ workflows:
   version: 2
   sequence_of_execution:
     jobs:
-      - test_explicit_wait
+      - test_Explicit_Wait
       - test_Fluent_wait
