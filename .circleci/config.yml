@@ -1,13 +1,33 @@
-version : 2.1
+version: 2.1
+
 jobs:
-   test:
+  test_Explicit_Wait:
     docker:
-      - image: cimg/python:3.2
+      - image: cimg/python:3.11
     steps:
       - checkout
-      - run: python Implicit_wait.py
+      - run:
+          name: Install dependencies
+          command: |
+            python -m pip install --upgrade pip
+            pip install -r requirements.txt
+      - run: python Files/explicit_wait.py
 
+  test_Fluent_wait:
+    docker:
+      - image: cimg/python:3.11
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: |
+            python -m pip install --upgrade pip
+            pip install -r requirements.txt
+      - run: python Files/fluent_wait.py
+      
 workflows:
-  build_now:
+  version: 2
+  sequence_of_execution:
     jobs:
-      - test
+      - test_explicit_wait
+      - test_Fluent_wait
